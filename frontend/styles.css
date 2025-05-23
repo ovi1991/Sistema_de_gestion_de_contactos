@@ -1,0 +1,23 @@
+ul#listaContactos li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+ul#listaContactos button {
+    margin-left: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+ul#listaContactos button:hover {
+    background-color: lightblue;
+}
